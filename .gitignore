@@ -51,3 +51,8 @@ coverage.xml
 
 # Expense tracker data file (ignore if you don’t want to push real expenses)
 data/expenses.json
+
+echo "data/expenses.json" >> .gitignore
+# Ignore FastAPI and Uvicorn related files
+
+
